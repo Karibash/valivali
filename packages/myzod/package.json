@@ -1,0 +1,44 @@
+{
+  "name": "@valivali/myzod",
+  "version": "1.0.0",
+  "description": "ValiVali Resolver for myzod.",
+  "main": "dist/valivali-myzod.cjs.js",
+  "module": "dist/valivali-myzod.esm.js",
+  "types": "dist/valivali-myzod.cjs.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "typescript",
+    "schema",
+    "validation",
+    "myzod"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karibash/valivali.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karibash/valivali/issues"
+  },
+  "homepage": "https://github.com/Karibash/valivali",
+  "dependencies": {
+    "@babel/runtime": "7.20.7",
+    "@valivali/core": "1.0.0"
+  },
+  "peerDependencies": {
+    "myzod": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4",
+    "myzod": "1.9.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
