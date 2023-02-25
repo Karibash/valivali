@@ -1,0 +1,44 @@
+{
+  "name": "@valivali/zod",
+  "version": "1.0.0",
+  "description": "ValiVali Resolver for zod.",
+  "main": "dist/valivali-zod.cjs.js",
+  "module": "dist/valivali-zod.esm.js",
+  "types": "dist/valivali-zod.cjs.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "typescript",
+    "schema",
+    "validation",
+    "zod"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karibash/valivali.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karibash/valivali/issues"
+  },
+  "homepage": "https://github.com/Karibash/valivali",
+  "dependencies": {
+    "@babel/runtime": "7.20.7",
+    "@valivali/core": "1.0.0"
+  },
+  "peerDependencies": {
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4",
+    "zod": "3.20.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
