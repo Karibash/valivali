@@ -1,0 +1,44 @@
+{
+  "name": "@valivali/runtypes",
+  "version": "1.0.0",
+  "description": "ValiVali Resolver for runtypes.",
+  "main": "dist/valivali-runtypes.cjs.js",
+  "module": "dist/valivali-runtypes.esm.js",
+  "types": "dist/valivali-runtypes.cjs.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "typescript",
+    "schema",
+    "validation",
+    "runtypes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karibash/valivali.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karibash/valivali/issues"
+  },
+  "homepage": "https://github.com/Karibash/valivali",
+  "dependencies": {
+    "@babel/runtime": "7.20.7",
+    "@valivali/core": "1.0.0"
+  },
+  "peerDependencies": {
+    "runtypes": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4",
+    "runtypes": "6.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
