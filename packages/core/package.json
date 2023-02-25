@@ -1,0 +1,38 @@
+{
+  "name": "@valivali/core",
+  "version": "1.0.0",
+  "description": "Provide a common interface for schema validation.",
+  "main": "dist/valivali-core.cjs.js",
+  "module": "dist/valivali-core.esm.js",
+  "types": "dist/valivali-core.cjs.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "typescript",
+    "schema",
+    "validation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karibash/valivali.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karibash/valivali/issues"
+  },
+  "homepage": "https://github.com/Karibash/valivali",
+  "dependencies": {
+    "@babel/runtime": "7.20.7"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

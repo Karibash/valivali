@@ -1,6 +1,6 @@
 {
   "name": "valivali-project",
-  "description": "",
+  "description": "Provide a common interface for schema validation.",
   "private": true,
   "scripts": {
     "postinstall": "preconstruct dev",
