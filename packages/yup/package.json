@@ -1,0 +1,44 @@
+{
+  "name": "@valivali/yup",
+  "version": "1.0.0",
+  "description": "ValiVali Resolver for yup.",
+  "main": "dist/valivali-yup.cjs.js",
+  "module": "dist/valivali-yup.esm.js",
+  "types": "dist/valivali-yup.cjs.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "typescript",
+    "schema",
+    "validation",
+    "yup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karibash/valivali.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karibash/valivali/issues"
+  },
+  "homepage": "https://github.com/Karibash/valivali",
+  "dependencies": {
+    "@babel/runtime": "7.20.7",
+    "@valivali/core": "1.0.0"
+  },
+  "peerDependencies": {
+    "yup": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4",
+    "yup": "1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
