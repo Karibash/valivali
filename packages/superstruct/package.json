@@ -1,0 +1,44 @@
+{
+  "name": "@valivali/superstruct",
+  "version": "1.0.0",
+  "description": "ValiVali Resolver for superstruct.",
+  "main": "dist/valivali-superstruct.cjs.js",
+  "module": "dist/valivali-superstruct.esm.js",
+  "types": "dist/valivali-superstruct.cjs.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "typescript",
+    "schema",
+    "validation",
+    "superstruct"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karibash/valivali.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Karibash/valivali/issues"
+  },
+  "homepage": "https://github.com/Karibash/valivali",
+  "dependencies": {
+    "@babel/runtime": "7.20.7",
+    "@valivali/core": "1.0.0"
+  },
+  "peerDependencies": {
+    "superstruct": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4",
+    "superstruct": "1.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
