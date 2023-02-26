@@ -6,7 +6,16 @@
   ],
   "commit": false,
   "fixed": [],
-  "linked": [],
+  "linked": [
+    [
+      "@valivali/core",
+      "@valivali/myzod",
+      "@valivali/runtypes",
+      "@valivali/superstruct",
+      "@valivali/yup",
+      "@valivali/zod"
+    ]
+  ],
   "access": "public",
   "baseBranch": "main",
   "ignore": ["*/*-example"],
