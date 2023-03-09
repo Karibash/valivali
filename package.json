@@ -28,7 +28,7 @@
     ]
   },
   "workspaces": [
-    "examples/*",
+    "example",
     "packages/*"
   ],
   "preconstruct": {

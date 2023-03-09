@@ -18,7 +18,7 @@
   ],
   "access": "public",
   "baseBranch": "main",
-  "ignore": ["*/*-example"],
+  "ignore": ["*-example"],
   "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
     "updateInternalDependents": "always"
   }
