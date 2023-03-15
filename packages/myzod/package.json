@@ -35,8 +35,8 @@
     "myzod": "^1.0.0"
   },
   "devDependencies": {
-    "typescript": "4.9.4",
-    "myzod": "1.9.2"
+    "myzod": "1.9.2",
+    "typescript": "4.9.4"
   },
   "publishConfig": {
     "access": "public"
