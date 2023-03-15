@@ -1,7 +1,8 @@
 {
+  "private": true,
   "name": "valivali-project",
   "description": "Provide a common interface for schema validation.",
-  "private": true,
+  "packageManager": "yarn@3.4.1",
   "scripts": {
     "postinstall": "preconstruct dev",
     "prepare": "simple-git-hooks",
