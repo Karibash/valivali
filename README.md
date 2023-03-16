@@ -18,7 +18,7 @@
 
 It provides verification functions that do not depend on a specific schema verification library such as Zod or Yup.  
 This allows the implementation of an interface that allows users to use their preferred schema verification library.  
-You can see how to handle the library in the [example project](example/README.md).
+You can see how to handle the library in the [example projects](examples).
 
 ## 🤝 Contributing
 

@@ -8420,9 +8420,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"valivali-example@workspace:example":
+"valivali-basic-example@workspace:examples/basic":
   version: 0.0.0-use.local
-  resolution: "valivali-example@workspace:example"
+  resolution: "valivali-basic-example@workspace:examples/basic"
   dependencies:
     "@types/node": 18.14.6
     "@valivali/core": 1.0.0
