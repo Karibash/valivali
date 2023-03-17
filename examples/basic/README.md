@@ -1,4 +1,4 @@
-# valivali-example
+# valivali-basic-example
 
 This is a example program describing the basic usage of valivali packages.
 
